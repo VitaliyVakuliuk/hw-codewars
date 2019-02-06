@@ -73,6 +73,6 @@ function whatNumberIsIt(n) {
         return "Input number is Number.NEGATIVE_INFINITY";
     if (n === Number.POSITIVE_INFINITY)
         return "Input number is Number.POSITIVE_INFINITY";
-    if (Number.isSafeInteger(n))
+    if (n === n)
         return "Input number is " + n;
 }
